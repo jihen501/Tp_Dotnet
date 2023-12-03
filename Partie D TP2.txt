@@ -1,0 +1,9 @@
+Partie D TP2:
+1-Installer Installer le package Entity Framework Core et Microsoft.EntityFrameworkCore.Design
+2-Configurer le contexte de base de données : Créez une classe de contexte qui dérive de DbContext et configurez la connexion à la base de données dans cette classe.(les DbSet et la methode OnConfiguring)
+3-Utiliser dotnet-ef dbcontext scaffold : Utilisez la commande dotnet-ef dbcontext scaffold pour générer les entités à partir de votre base de données existante
+
+dotnet ef dbcontext scaffold "YourConnectionString" Microsoft.EntityFrameworkCore.SqlServer -o Models
+4-Ajouter le contexte de base de données à votre application 
+
+
